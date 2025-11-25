@@ -230,7 +230,7 @@ EOF
 npm run dev
 ```
 
-✅ Backend running on: `http://localhost:5000`
+✅ Backend running on: `http://localhost:8000`
 
 ### Step 3️⃣: Frontend Setup
 
@@ -278,7 +278,7 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/merath-academy
 <div align="center">
 
 ### 🏠 Home Page
-![Home Page](https://via.placeholder.com/800x400/2E7D32/FFFFFF?text=Home+Page+Screenshot)
+![Home Page]('./docs/screenshots/courses.jpg')
 
 ### 📚 Courses Page
 ![Courses](https://via.placeholder.com/800x400/1565C0/FFFFFF?text=Courses+Page+Screenshot)

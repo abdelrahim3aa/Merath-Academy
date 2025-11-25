@@ -12,7 +12,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <Link to="/" className="nav-logo">
-          🕌  أكاديمية ميراث
+          أكاديمية ميراث
         </Link>
 
         {/* Links */}
