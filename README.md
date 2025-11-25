@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/yourusername/merath-academy)
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/abdelrahim3aa/merath-academy)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
 [![React Version](https://img.shields.io/badge/react-18.2.0-blue)](https://reactjs.org/)
 
@@ -164,7 +164,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/merath-academy.git
+git clone https://github.com/abdelrahim3aa/merath-academy.git
 
 # Navigate to project
 cd merath-academy
@@ -206,7 +206,7 @@ Before you begin, ensure you have the following installed:
 ### Step 1️⃣: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/merath-academy.git
+git clone https://github.com/abdelrahim3aa/merath-academy.git
 cd merath-academy
 ```
 
@@ -409,7 +409,7 @@ We love contributions! ❤️
 
 | Avatar | Name | Role | GitHub |
 |:------:|:----:|:----:|:------:|
-| 👨‍💻 | **Your Name** | Lead Developer | [@yourusername](https://github.com/yourusername) |
+| 👨‍💻 | **Your Name** | Lead Developer | [@abdelrahim3aa](https://github.com/abdelrahim3aa) |
 | 🎨 | **Designer Name** | UI/UX Designer | [@designer](https://github.com/designer) |
 | 📚 | **Scholar Name** | Content Advisor | [@scholar](https://github.com/scholar) |
 
@@ -421,11 +421,11 @@ We love contributions! ❤️
 
 <div align="center">
 
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/merath-academy?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/merath-academy?style=social)
-![GitHub Watchers](https://img.shields.io/github/watchers/yourusername/merath-academy?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/merath-academy)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/merath-academy)
+![GitHub Stars](https://img.shields.io/github/stars/abdelrahim3aa/merath-academy?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/abdelrahim3aa/merath-academy?style=social)
+![GitHub Watchers](https://img.shields.io/github/watchers/abdelrahim3aa/merath-academy?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/abdelrahim3aa/merath-academy)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/abdelrahim3aa/merath-academy)
 
 </div>
 
@@ -461,11 +461,11 @@ in the Software without restriction...
 
 ### 🐛 Found a Bug?
 
-[Report an Issue](https://github.com/yourusername/merath-academy/issues/new?template=bug_report.md)
+[Report an Issue](https://github.com/abdelrahim3aa/merath-academy/issues/new?template=bug_report.md)
 
 ### 💡 Have an Idea?
 
-[Request a Feature](https://github.com/yourusername/merath-academy/issues/new?template=feature_request.md)
+[Request a Feature](https://github.com/abdelrahim3aa/merath-academy/issues/new?template=feature_request.md)
 
 ---
 
@@ -473,7 +473,7 @@ in the Software without restriction...
 
 If you like this project, please consider giving it a ⭐ on GitHub!
 
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/merath-academy?style=social)](https://github.com/yourusername/merath-academy)
+[![GitHub Stars](https://img.shields.io/github/stars/abdelrahim3aa/merath-academy?style=social)](https://github.com/abdelrahim3aa/merath-academy)
 
 ---
 
@@ -491,8 +491,8 @@ If you like this project, please consider giving it a ⭐ on GitHub!
 ![MongoDB](https://img.shields.io/badge/MongoDB-4.4%2B-green)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-![Stars](https://img.shields.io/github/stars/yourusername/merath-academy?style=social)
-![Forks](https://img.shields.io/github/forks/yourusername/merath-academy?style=social)
+![Stars](https://img.shields.io/github/stars/abdelrahim3aa/merath-academy?style=social)
+![Forks](https://img.shields.io/github/forks/abdelrahim3aa/merath-academy?style=social)
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)

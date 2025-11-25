@@ -72,7 +72,7 @@ Unsure where to begin? You can start by looking through these issues:
 
 ```bash
 # Clone your fork
-git clone https://github.com/your-username/merath-academy.git
+git clone https://github.com/abdelrahim3aa/merath-academy.git
 cd merath-academy
 
 # Install backend dependencies
