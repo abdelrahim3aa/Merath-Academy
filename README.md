@@ -484,3 +484,22 @@ If you like this project, please consider giving it a ⭐ on GitHub!
 *Preserving Islamic Heritage Through Modern Education* 🕌
 
 </div>
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Node Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)
+![React Version](https://img.shields.io/badge/react-18.2.0-blue)
+![MongoDB](https://img.shields.io/badge/MongoDB-4.4%2B-green)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![Stars](https://img.shields.io/github/stars/yourusername/merath-academy?style=social)
+![Forks](https://img.shields.io/github/forks/yourusername/merath-academy?style=social)
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)
+![Built for Muslims](https://img.shields.io/badge/Built%20for-Muslims-green.svg)
+![Islamic Education](https://img.shields.io/badge/Islamic-Education-2E7D32.svg)
