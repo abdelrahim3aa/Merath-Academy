@@ -1,6 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const ManageCourses = () => {
   const [courses, setCourses] = useState([]);
@@ -23,8 +23,8 @@ const ManageCourses = () => {
   const fetchData = async () => {
     try {
       const [coursesRes, shuyukhRes] = await Promise.all([
-        axios.get('http://localhost:8000/api/courses'),
-        axios.get('http://localhost:8000/api/shuyukh')
+        axios.get(`${API_URL}/api/courses`),
+        axios.get(`${API_URL}/api/shuyukh`)
       ]);
       setCourses(coursesRes.data);
       setShuyukh(shuyukhRes.data);

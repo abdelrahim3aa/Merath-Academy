@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './css/CourseDetails.css';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const CourseDetails = () => {
   const { id } = useParams();
@@ -17,8 +18,8 @@ const CourseDetails = () => {
   const fetchData = async () => {
     try {
       const [courseRes, lessonsRes] = await Promise.all([
-        axios.get(`http://localhost:8000/api/courses/${id}`),
-        axios.get(`http://localhost:8000/api/lessons/course/${id}`)
+        axios.get(`${API_URL}/api/courses/${id}`),
+        axios.get(`${API_URL}/api/lessons/course/${id}`)
       ]);
 
       setCourse(courseRes.data);

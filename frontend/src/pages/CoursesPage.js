@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './css/CoursesPage.css';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([]);
@@ -14,7 +15,7 @@ const CoursesPage = () => {
 
   const fetchCourses = async () => {
     try {
-      const res = await axios.get('http://localhost:8000/api/courses');
+      const res = await axios.get(`${API_URL}/api/courses`);
       setCourses(res.data);
       setLoading(false);
     } catch (error) {

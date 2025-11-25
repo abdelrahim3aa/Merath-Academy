@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './css/SheikhProfile.css';
-
+const API_URL = process.env.REACT_APP_API_URL;
 
 const SheikhProfile = () => {
   const { id } = useParams();
@@ -17,8 +17,8 @@ const SheikhProfile = () => {
   const fetchData = async () => {
     try {
       const [sheikhRes, coursesRes] = await Promise.all([
-        axios.get(`http://localhost:8000/api/shuyukh/${id}`),
-        axios.get('http://localhost:8000/api/courses')
+        axios.get(`${API_URL}/api/shuyukh/${id}`),
+        axios.get(`${API_URL}/api/courses`)
       ]);
 
       setSheikh(sheikhRes.data);

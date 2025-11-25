@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './css/ShuyukhPage.css';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const ShuyukhPage = () => {
   const [shuyukh, setShuyukh] = useState([]);
@@ -15,7 +16,7 @@ const ShuyukhPage = () => {
 
   const fetchShuyukh = async () => {
     try {
-      const res = await axios.get('http://localhost:8000/api/shuyukh');
+      const res = await axios.get(`${API_URL}/api/shuyukh`);
       setShuyukh(res.data);
       setLoading(false);
     } catch (error) {

@@ -1,6 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const AdminHome = () => {
   const [stats, setStats] = useState({
@@ -16,9 +16,9 @@ const AdminHome = () => {
   const fetchStats = async () => {
     try {
       const [users, shuyukh, courses] = await Promise.all([
-        axios.get('http://localhost:8000/api/admin/users'),
-        axios.get('http://localhost:8000/api/shuyukh'),
-        axios.get('http://localhost:8000/api/courses')
+        axios.get(`${API_URL}/api/admin/users`),
+        axios.get(`${API_URL}/api/shuyukh`),
+        axios.get(`${API_URL}/api/courses`)
       ]);
 
       setStats({

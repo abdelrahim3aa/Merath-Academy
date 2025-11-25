@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const ManageUsers = () => {
   const [users, setUsers] = useState([]);
@@ -12,7 +13,7 @@ const ManageUsers = () => {
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get('http://localhost:8000/api/admin/users');
+      const res = await axios.get(`${API_URL}/api/admin/users`);
       setUsers(res.data);
       setLoading(false);
     } catch (error) {
@@ -24,7 +25,7 @@ const ManageUsers = () => {
   const handleChangeRole = async (userId, newRole) => {
     if (window.confirm(`هل أنت متأكد من تغيير الصلاحية إلى ${newRole}؟`)) {
       try {
-        await axios.put(`http://localhost:8000/api/admin/users/${userId}/role`, {
+        await axios.put(`${API_URL}/api/admin/users/${userId}/role`, {
           role: newRole
         });
         alert('تم تحديث الصلاحية بنجاح');
@@ -38,7 +39,7 @@ const ManageUsers = () => {
   const handleDelete = async (userId) => {
     if (window.confirm('هل أنت متأكد من حذف هذا المستخدم؟')) {
       try {
-        await axios.delete(`http://localhost:8000/api/admin/users/${userId}`);
+        await axios.delete(`${API_URL}/api/admin/users/${userId}`);
         alert('تم الحذف بنجاح');
         fetchUsers();
       } catch (error) {

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './css/HomePage.css';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const HomePage = () => {
   const [courses, setCourses] = useState([]);
@@ -15,8 +16,8 @@ const HomePage = () => {
   const fetchData = async () => {
     try {
       const [coursesRes, shuyukhRes] = await Promise.all([
-        axios.get('http://localhost:8000/api/courses'),
-        axios.get('http://localhost:8000/api/shuyukh')
+        axios.get(`${API_URL}/api/courses`),
+        axios.get(`${API_URL}/api/shuyukh`)
       ]);
       setCourses(coursesRes.data.slice(0, 6));
       setShuyukh(shuyukhRes.data.slice(0, 4));

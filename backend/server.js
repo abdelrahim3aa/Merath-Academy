@@ -8,7 +8,15 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://merath.vercel.app'
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}));
 app.use(json());
 app.use(urlencoded({ extended: true }));
 
