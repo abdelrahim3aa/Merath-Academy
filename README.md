@@ -277,17 +277,22 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/merath-academy
 
 <div align="center">
 
-### 🏠 Home Page
-![Home Page]('./docs/screenshots/courses.jpg')
+## 🎨 لقطات الشاشة
 
-### 📚 Courses Page
-![Courses](https://via.placeholder.com/800x400/1565C0/FFFFFF?text=Courses+Page+Screenshot)
+### 🏠 الصفحة الرئيسية
+![الصفحة الرئيسية](docs/screenshots/home.jpg)
 
-### 👨‍🏫 Scholar Profile
-![Scholar Profile](https://via.placeholder.com/800x400/FFB300/FFFFFF?text=Scholar+Profile+Screenshot)
+### 📚 صفحة الدورات
+![الدورات](docs/screenshots/courses.jpg)
 
-### 🛡️ Admin Dashboard
-![Admin Dashboard](https://via.placeholder.com/800x400/d32f2f/FFFFFF?text=Admin+Dashboard+Screenshot)
+### 👨‍🏫 ملف الشيخ
+![ملف الشيخ](docs/screenshots/scholar.jpg)
+
+### 👨‍🏫 ملف الشيخ
+![ملف الشيخ](docs/screenshots/scholars.jpg)
+
+### 🛡️ لوحة التحكم
+![لوحة التحكم](docs/screenshots/admin.jpg)
 
 </div>
 
