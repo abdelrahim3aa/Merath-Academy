@@ -38,10 +38,10 @@ const ManageCourses = () => {
 
     try {
       if (editId) {
-        await axios.put(`http://localhost:8000/api/courses/${editId}`, formData);
+        await axios.put(`${API_URL}/api/courses/${editId}`, formData);
         alert('تم التحديث بنجاح');
       } else {
-        await axios.post('http://localhost:8000/api/courses', formData);
+        await axios.post('${API_URL}/api/courses', formData);
         alert('تم الإضافة بنجاح');
       }
       
@@ -70,7 +70,7 @@ const ManageCourses = () => {
   const handleDelete = async (id) => {
     if (window.confirm('هل أنت متأكد من الحذف؟')) {
       try {
-        await axios.delete(`http://localhost:8000/api/courses/${id}`);
+        await axios.delete(`${API_URL}/api/courses/${id}`);
         alert('تم الحذف بنجاح');
         fetchData();
       } catch (error) {

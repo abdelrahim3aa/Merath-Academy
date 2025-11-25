@@ -37,10 +37,10 @@ const ManageShuyukh = () => {
 
     try {
       if (editId) {
-        await axios.put(`http://localhost:8000/api/shuyukh/${editId}`, data);
+        await axios.put(`${API_URL}/api/shuyukh/${editId}`, data);
         alert('تم التحديث بنجاح');
       } else {
-        await axios.post('http://localhost:8000/api/shuyukh', data);
+        await axios.post(`${API_URL}/api/shuyukh`, data);
         alert('تم الإضافة بنجاح');
       }
       
@@ -67,7 +67,7 @@ const ManageShuyukh = () => {
   const handleDelete = async (id) => {
     if (window.confirm('هل أنت متأكد من الحذف؟')) {
       try {
-        await axios.delete(`http://localhost:8000/api/shuyukh/${id}`);
+        await axios.delete(`${API_URL}/api/shuyukh/${id}`);
         alert('تم الحذف بنجاح');
         fetchShuyukh();
       } catch (error) {
