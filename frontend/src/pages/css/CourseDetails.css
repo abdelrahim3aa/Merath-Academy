@@ -1,0 +1,157 @@
+/* CourseDetails.css - Heavy Islamic Design */
+
+.course-details {
+  min-height: calc(100vh - 200px);
+}
+
+.course-header {
+  position: relative;
+  height: 500px; /* Maximize dramatic effect */
+  overflow: hidden;
+}
+
+.course-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5); /* Deeper background for maximum text contrast */
+}
+
+.header-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 60px 50px; /* Increased padding */
+  /* Intense, dark gradient for text authority */
+  background: linear-gradient(transparent, rgba(0,0,0,0.95)); 
+  color: white;
+}
+
+.header-content h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: #C8A97E; /* Gold Title */
+}
+
+.sheikh-name {
+  font-size: 26px;
+  color: #00838F; /* Deep Aqua accent */
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.course-meta {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.course-meta span {
+  padding: 12px 25px;
+  background: rgba(200, 169, 126, 0.2); /* Gold-tinted background */
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #C8A97E;
+}
+
+.description-section,
+.lessons-section {
+  padding: 80px 0;
+  border-bottom: 1px solid #E5E0D5;
+}
+
+.description-section h2,
+.lessons-section h2 {
+  color: #004D40; /* Deep Emerald Section Titles */
+  margin-bottom: 40px;
+  font-size: 38px;
+  /* Thick, hard Gold accent bar for RTL */
+  border-right: 6px solid #C8A97E; 
+  padding-right: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.description-section p {
+  line-height: 2.1;
+  font-size: 19px;
+  color: #444;
+  padding-right: 20px;
+}
+
+.lessons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lesson-item {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  border-right: 5px solid transparent;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.lesson-item:hover {
+  border-right-color: #C8A97E; /* Gold Highlight on hover */
+  transform: translateX(-7px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.lesson-number {
+  background: #004D40; /* Deep Emerald circle */
+  color: #C8A97E; /* Gold Number */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 18px;
+  flex-shrink: 0;
+  border: 2px solid #C8A97E;
+}
+
+.lesson-info {
+  flex-grow: 1;
+  padding: 0 25px;
+  text-align: right;
+}
+
+.lesson-info h3 {
+  margin: 0 0 8px 0;
+  color: #004D40;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lesson-info p {
+  margin: 0;
+  color: #666;
+  font-size: 15px;
+}
+
+.lesson-duration {
+  color: #00838F;
+  font-weight: bold;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+
+.no-lessons {
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  color: #888;
+  background: #F3ECE1;
+  border-radius: 12px;
+}

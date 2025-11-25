@@ -1,0 +1,160 @@
+/* Auth.css */
+
+.auth-page {
+  /* Centered and uses the lighter background color */
+  min-height: calc(100vh - 250px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background: #F9FAFB;
+}
+
+.auth-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px; /* Softer radius */
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1); /* Deeper, softer shadow */
+  max-width: 420px; /* Slightly wider */
+  width: 100%;
+  border-top: 5px solid #00ADB5; /* Accent border */
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1D2642; /* Deep Navy header */
+  font-size: 30px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #F9FAFB; /* Subtle contrast in input field */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #00ADB5;
+  box-shadow: 0 0 0 3px rgba(0, 173, 181, 0.1);
+}
+
+.error {
+  background: #ffeded;
+  color: #d32f2f;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ef9a9a;
+  text-align: right;
+}
+
+.auth-link {
+  text-align: center;/* Auth.css - Heavy Islamic Design */
+
+.auth-page {
+  min-height: calc(100vh - 250px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  background: #F9F4E9; /* Soft Cream BG */
+}
+
+.auth-container {
+  background: white;
+  padding: 50px;
+  border-radius: 20px; /* Stronger radius */
+  box-shadow: 0 15px 45px rgba(0,0,0,0.15); /* Heavy, strong shadow */
+  max-width: 450px; 
+  width: 100%;
+  border-top: 8px solid #004D40; /* Heavy Deep Emerald Accent Border */
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #004D40; /* Deep Emerald header */
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #004D40;
+  font-size: 16px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 17px;
+  background: #F9FAFB; 
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #C8A97E; /* Gold Focus Ring */
+  box-shadow: 0 0 0 4px rgba(200, 169, 126, 0.3);
+}
+
+.error {
+  background: #FEEEDD;
+  color: #D67C64;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #C8A97E;
+  text-align: right;
+  font-weight: 600;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.auth-link a {
+  color: #004D40;
+  text-decoration: none;
+  font-weight: 900;
+  transition: color 0.3s;
+}
+
+.auth-link a:hover {
+    color: #C8A97E;
+}
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.auth-link a {
+  color: #00ADB5;
+  text-decoration: none;
+  font-weight: bold;
+}

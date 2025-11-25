@@ -1,0 +1,96 @@
+/* =======================================================
+   index.css - Global Styles and Variables (Updated)
+   Palette: Deep Emerald (#004D40) & Aged Gold (#C8A97E)
+   Added premium "shine" effects & soft gradients
+   ======================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body {
+  font-family: 'Tajawal', 'Cairo', Arial, sans-serif; 
+  direction: rtl;
+  background: linear-gradient(135deg, #F9F4E9 0%, #FFFDF7 100%);
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Buttons */
+.btn {
+  padding: 16px 35px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 800;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  text-transform: capitalize;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #C8A97E 0%, #A98A62 100%);
+  color: #004D40;
+  box-shadow: 0 10px 30px rgba(180, 150, 90, 0.4);
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.25) 0%, transparent 70%);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.btn-primary:hover::after {
+  transform: rotate(45deg) translate(20%, 20%);
+}
+
+.btn-primary span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-primary:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 45px rgba(180, 150, 90, 0.65);
+}
+
+/* Sections */
+.section {
+  padding: 120px 0;
+}
+
+.bg-light {
+  background: #F3ECE1;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  padding: 100px 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #004D40;
+  animation: glow 2s infinite ease-in-out;
+}
