@@ -8,7 +8,15 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+// Replace app.use(cors()) with:
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://merath.vercel.app',
+    'https://merath-*.vercel.app' // For preview deployments
+  ],
+  credentials: true
+}));
 app.use(json());
 app.use(urlencoded({ extended: true }));
 
